@@ -1,0 +1,54 @@
+
+---
+title: "STAT628 datacleaning"
+author: "Zhihao ZHAO"
+output: word_document
+---
+
+```{r}
+setwd("C:/Users/THINKPAD/Desktop/myUW/STAT628 Data Science Practicum/HW3/Data")
+
+library(rjson)
+library(jsonlite)
+library(dplyr)
+library(tidyr)
+```
+
+
+```{r}
+##find all  case with category 'Hotel'
+business = jsonlite::stream_in(file("business_city.json"))#num=36327
+index = grep("Hotel",business$categories,ignore.case=TRUE)
+
+##clean business.json
+business_hotel = business[index,] #num=1257
+business_open = business_hotel[which(business_hotel$is_open==1),] #only for open hotel, num=1133
+rm(business_hotel)
+
+attr = as.data.frame(business_open[[12]])
+hr = as.data.frame(business_open[[14]])
+business_clean = cbind(business_open[1:11],attr,business_open[13],hr)
+colnames(business_clean)[12:51] = paste("attribute.",colnames(business_clean)[12:51],sep="")
+colnames(business_clean)[52:58] = paste("hours.",colnames(business_clean)[52:58],sep="")
+business_clean = business_clean[,-c(3,6,7,8,11)]#delete address, postal_code, latitude, longitude, is_open
+rm(business_open)
+write.csv(business_clean,"business_clean.csv",row.names=FALSE)
+
+##clean review.json
+reviews = jsonlite::stream_in(file("review_city.json"))#num= 942027
+reviews_clean <- reviews %>% filter(business_id %in% business_clean$business_id) 
+write.csv(reviews_clean,"reviews_clean.csv",row.names=FALSE)
+
+
+##clean user.json
+user = jsonlite::stream_in(file("user_city.json"))
+user_clean = user[which(user$user_id %in% review_clean$user_id),]
+write.csv(user_clean,"user_clean.csv",row.names=FALSE)
+
+
+##clean tip.json 
+tip = jsonlite::stream_in(file("tip_city.json"))
+tip_clean = tip[which(tip$business_id %in% business_clean$business_id),]
+write.csv(tip_clean,"tip_clean.csv",row.names=FALSE)
+
+```
