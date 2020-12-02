@@ -13,11 +13,11 @@ The data can be downloaded from the link provided in course STAT628.
   - [628_graph.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/628_graph.Rmd)*(created by Haoran Teng, revised by Zhihao Zhao)*
  
 - [\DataProcessing](https://github.com/Zhihaozzh/STAT628HW3/tree/main/dataprocessing):
- - [business_clean.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/datacleaning.Rmd)*(created by Zhihao Zhao)*
- - [reviews_clean.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/reviews_clean.csv)*(created by Zhihao Zhao)*
- - [star2.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/star2.csv)*(created by Zhihao Zhao)*
- - [star4.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/star4.csv)*(created by Zhihao Zhao)*
- - [freqvsstar.csv.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/freqvsstar.csv)*(created by Haoran Teng)*
+  - [business_clean.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/datacleaning.Rmd)*(created by Zhihao Zhao)*
+  - [reviews_clean.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/reviews_clean.csv)*(created by Zhihao Zhao)*
+  - [star2.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/star2.csv)*(created by Zhihao Zhao)*
+  - [star4.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/star4.csv)*(created by Zhihao Zhao)*
+  - [freqvsstar.csv.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/freqvsstar.csv)*(created by Haoran Teng)*
  
 - [\hotelshinyapp.txt](https://github.com/Zhihaozzh/STAT628HW3/blob/main/hotelshinyapp.txt)*(created by Haoran Teng, revised by Zhihao Zhao)*
  
