@@ -6,11 +6,11 @@ The data can be downloaded from the link provided in course STAT628.
 
   
 - [\Code](https://github.com/Zhihaozzh/STAT628HW3/tree/main/code):
- - [datacleaning.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/datacleaning.Rmd)*(created by Zhihao Zhao, revised by Haoran Teng)*
- - [word.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/Analysis.Rmd)*(created by Zhihao Zhao, revised by Haoran Teng)*
- - [Analysis.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/Analysis.Rmd)*(created by Zhihao Zhao, revised by Haoran Teng)*
- - [word-regression.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/word-regression.Rmd)*(created by Zhihao Zhao and Haoran Teng)*
- - [628_graph.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/628_graph.Rmd)*(created by Haoran Teng, revised by Zhihao Zhao)*
+  - [datacleaning.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/datacleaning.Rmd)*(created by Zhihao Zhao, revised by Haoran Teng)*
+  - [word.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/Analysis.Rmd)*(created by Zhihao Zhao, revised by Haoran Teng)*
+  - [Analysis.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/Analysis.Rmd)*(created by Zhihao Zhao, revised by Haoran Teng)*
+  - [word-regression.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/word-regression.Rmd)*(created by Zhihao Zhao and Haoran Teng)*
+  - [628_graph.Rmd](https://github.com/Zhihaozzh/STAT628HW3/blob/main/code/628_graph.Rmd)*(created by Haoran Teng, revised by Zhihao Zhao)*
  
 - [\DataProcessing](https://github.com/Zhihaozzh/STAT628HW3/tree/main/dataprocessing):
  - [business_clean.csv](https://github.com/Zhihaozzh/STAT628HW3/blob/main/dataprocessing/datacleaning.Rmd)*(created by Zhihao Zhao)*
