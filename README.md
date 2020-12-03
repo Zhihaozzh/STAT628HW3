@@ -25,6 +25,8 @@ The data can be downloaded from the link provided in course STAT628.
 
 - [\SuggestionforHotels.pptx](https://github.com/Zhihaozzh/STAT628HW3/blob/main/SuggestionforHotels.pptx)*(co-worked and revised by Zhihao Zhao, Haoran Teng)*
 
+- [\SuggestionforHotels(8).pptx](https://github.com/Zhihaozzh/STAT628HW3/blob/main/SuggestionforHotels.pptx)*(co-worked and revised by Zhihao Zhao, Haoran Teng, Yuanyou Yao)*
+
 - [\628_graph](https://github.com/Zhihaozzh/STAT628HW3/blob/main/628_graph.html)*(created by Haoran Teng)*
 
 - [\hoteladvice.pptx](https://github.com/Zhihaozzh/STAT628HW3/blob/main/hoteladvice.pptx)*(created by Yuanyou Yao)*
